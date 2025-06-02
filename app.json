@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "checkIn",
-    "slug": "checkIn",
+    "slug": "checkin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba1c2467-30d3-4156-8668-ad046cac0308"
+      }
+    },
+    "owner": "assbon"
   }
 }
